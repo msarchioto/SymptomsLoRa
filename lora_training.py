@@ -53,7 +53,7 @@ def main():
         per_device_train_batch_size=1,  # Try reducing this value
         per_device_eval_batch_size=1,   # Same for evaluation
         gradient_accumulation_steps=8,   # Simulate a batch size of 8
-        fp16=True,  # Enable mixed precision training for lower memory usage        
+        fp16=True,  # Enable mixed precision training for lower memory usage
         output_dir="lora_model",
         num_train_epochs=3,  # Adjust the number of epochs as needed
         save_steps=1000,
